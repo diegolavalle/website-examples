@@ -14,8 +14,7 @@ struct DiscussionsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-            .environmentObject(dataStore)
+            ContentView().environmentObject(dataStore)
         }
     }
 }
