@@ -8,11 +8,11 @@ struct NetworkSettings {
         )
 
         static let testing = NetworkSettings(
-            discussionsURL: URL(string: "https://data.diegolavalle.com:8000/discussion/6.json")!
+            discussionsURL: URL(string: "http://localhost:8080/discussion/6.json")!
         )
 
         static let local = NetworkSettings(
-            discussionsURL: URL(string: "http://localhost:8080/discussion/6.json")!
+            discussionsURL: Bundle.main.url(forResource: "discussion", withExtension: "json5")!
         )
     }
 

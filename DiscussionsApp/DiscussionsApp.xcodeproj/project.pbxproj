@@ -15,6 +15,7 @@
 		03D6F11927AB171A002C863A /* NetworkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D6F11827AB171A002C863A /* NetworkSettings.swift */; };
 		03D6F11B27AB65AC002C863A /* Discussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D6F11A27AB65AC002C863A /* Discussion.swift */; };
 		03D6F11D27ABD076002C863A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 03D6F11C27ABD076002C863A /* Settings.bundle */; };
+		03D6F11F27ABE5DD002C863A /* discussion.json5 in Resources */ = {isa = PBXBuildFile; fileRef = 03D6F11E27ABE5DD002C863A /* discussion.json5 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		03D6F11827AB171A002C863A /* NetworkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSettings.swift; sourceTree = "<group>"; };
 		03D6F11A27AB65AC002C863A /* Discussion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discussion.swift; sourceTree = "<group>"; };
 		03D6F11C27ABD076002C863A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		03D6F11E27ABE5DD002C863A /* discussion.json5 */ = {isa = PBXFileReference; lastKnownFileType = text; path = discussion.json5; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				03D6F11A27AB65AC002C863A /* Discussion.swift */,
 				03D6F10727AAD293002C863A /* DiscussionsApp.swift */,
 				03D6F11827AB171A002C863A /* NetworkSettings.swift */,
+				03D6F11E27ABE5DD002C863A /* discussion.json5 */,
 				03D6F10B27AAD296002C863A /* Assets.xcassets */,
 				03D6F10D27AAD296002C863A /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03D6F10F27AAD296002C863A /* Preview Assets.xcassets in Resources */,
+				03D6F11F27ABE5DD002C863A /* discussion.json5 in Resources */,
 				03D6F11D27ABD076002C863A /* Settings.bundle in Resources */,
 				03D6F10C27AAD296002C863A /* Assets.xcassets in Resources */,
 			);

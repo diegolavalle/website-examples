@@ -28,7 +28,9 @@ struct ContentView: View {
                 discussion = .init(totalComments: 0)
                 return
             }
-            discussion = (try? JSONDecoder().decode(Discussion.self, from: data)) ?? .init(totalComments: 0)
+            let json5Decoder = JSONDecoder()
+            json5Decoder.allowsJSON5 = true
+            discussion = (try? json5Decoder.decode(Discussion.self, from: data)) ?? .init(totalComments: 0)
         }
     }
 }
